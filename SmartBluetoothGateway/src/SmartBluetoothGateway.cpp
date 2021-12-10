@@ -56,7 +56,7 @@ Adafruit_MQTT_Publish mLostBeacons = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "
 
 #define DASHBOARD_TIMING 40000 // publish every 40 seconds
 #define TRACK_TIMEOUT_MS 30000 // beacon max timeout alarm is 30 seconds
-#define GPS_READ_NTERVAL 10000 //600000 // 10 minutes intervals
+#define GPS_READ_NTERVAL 120000 // 2 minutes for now... //  600000 for 10 minutes intervals
 #define MAX_DEVICES 6
 
 const int OLED_addr = 0x3C;
